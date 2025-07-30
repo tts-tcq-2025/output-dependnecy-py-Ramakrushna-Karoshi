@@ -14,7 +14,6 @@
 
 
 
-# color_map_module.py
 
 def get_color_map():
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
@@ -43,7 +42,6 @@ def print_color_map():
 
 
 
-# test_color_map_module.py
 
 from color_map_module import get_color_map, format_color_map, print_color_map
 
