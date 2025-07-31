@@ -97,7 +97,7 @@ def alert_in_celcius(farenheit):
 
 
 
-from alert_module import alert_in_celcius, alert_failure_count
+# from alert_module import alert_in_celcius, alert_failure_count
 
 def test_alert_failures():
     # Reset state (in real test you'd patch or reset state properly)
