@@ -43,7 +43,7 @@ def print_color_map():
 
 
 
-from color_map_module import get_color_map, format_color_map, print_color_map
+# from color_map_module import get_color_map, format_color_map, print_color_map
 
 def test_color_map_count():
     result = print_color_map()
