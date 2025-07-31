@@ -108,10 +108,13 @@ def test_alert_failures():
     alert_in_celcius(400.5)   # Celsius = 204.72, should trigger failure
     alert_in_celcius(303.6)   # Celsius = 150.88, should trigger failure
 
-    from alert_module import alert_failure_count as failure_count_after
-    assert failure_count_after == 2, (
-        f"Expected 2 failures, but got {failure_count_after}"
-    )
+    # from alert_module import alert_failure_count as failure_count_after
+    # assert failure_count_after == 2, (
+    #     f"Expected 2 failures, but got {failure_count_after}"
+    # )
+    
+    assert alert_failure_count == 2, (f"Expected 2 failures, but got {alert_failure_count}")
+
 
 if __name__ == '__main__':
     test_alert_failures()
