@@ -43,7 +43,7 @@ def size(cms):
 
 
 # test code 
-from size_module import size
+# from size_module import size
 
 def test_size_edge_case():
     assert size(38) == 'S', "Expected size(38) to return 'S', but got something else"
