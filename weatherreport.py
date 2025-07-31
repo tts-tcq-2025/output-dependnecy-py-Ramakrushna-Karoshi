@@ -144,7 +144,7 @@ def report(sensor_reader):
 
 
 
-from weather_module import report, sensor_stub, sensor_stub_high_precip_low_wind
+# from weather_module import report, sensor_stub, sensor_stub_high_precip_low_wind
 
 def test_rainy_weather_with_high_precip_and_wind():
     weather = report(sensor_stub)  # High temp, high precip, high wind
