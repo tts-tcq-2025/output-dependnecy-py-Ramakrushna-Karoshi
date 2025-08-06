@@ -15,24 +15,11 @@
 # print("All is well (maybe!)")
 
 
-
-# Task 1 :OK
-# def size(cms):
-#     if cms < 38:
-#         return 'S'
-#     elif cms > 38 and cms < 42:
-#         return 'M'
-#     else:
-#         return 'L'
+#***************************************************************************************************************#
+#***************************************************************************************************************#
+#***************************************************************************************************************#
 
 
-# # New test case to make it fail
-# assert(size(38) == 'S') # Expecting 'S' or 'M', but it will return 'L'
-# print("All is well (maybe!)")
-
-
-# Task2 : ok
-# Production code  : 
 def size(cms):
     if cms < 38:
         return 'S'
@@ -57,5 +44,6 @@ if __name__ == "__main__":
     test_size_edge_case()
     test_all_cases()
     print("All tests completed.")
+
 
 
