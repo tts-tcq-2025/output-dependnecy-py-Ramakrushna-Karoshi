@@ -78,7 +78,6 @@
 
 
 # Task 2 
-
 alert_failure_count = 0
 
 def network_alert_stub(celcius):
@@ -119,5 +118,6 @@ def test_alert_failures():
 if __name__ == '__main__':
     test_alert_failures()
     print("All tests completed.")
+
 
 
