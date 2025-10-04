@@ -1,4 +1,3 @@
-
 from weatherreport import report, sensor_stub, sensor_stub_high_precip_low_wind
 
 def test_rainy_weather_with_high_precip_and_wind():
