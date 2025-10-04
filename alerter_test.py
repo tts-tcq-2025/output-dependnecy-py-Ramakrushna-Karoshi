@@ -1,4 +1,3 @@
-
 from alerter import alert_in_celcius, alert_failure_count
 
 def test_alert_failures():
